@@ -1,7 +1,13 @@
+import { useParams } from "react-router-dom"
 
 export default function EditarProdutos() {
-    return (
-      <div>EditarProdutos</div>
-    )
-  }
-  
+
+    const {id} = useParams();
+
+  return (
+    <div>
+        <h1>EDITAR - PRODUTOS</h1>
+        <p>PRODUTO SELECIONADO - </p>
+    </div>
+  )
+}
